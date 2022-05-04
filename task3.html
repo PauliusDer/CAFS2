@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+
+    <style>
+        main {
+        min-height: 100vh;
+        width: 1000px;
+        margin: auto;
+        }
+        #nav-wrapper {
+        width: 1000px;
+        margin: auto;
+        }
+
+        #nav-wrapper>ul{
+        right: 0;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+
+        #nav-wrapper>ul>li {
+        position: relative;
+        right: 0;
+        padding: 10px 15px;
+        list-style: none;
+        display: inline-block;
+        font-size:24px;
+        }
+
+        #first-nav {
+        position: relative;
+        left: 0px;     
+        padding: 10px 15px;
+        list-style: none;
+        display: inline-block;
+        font-size:24px;
+        }
+
+        footer>p {
+            display: inline-block;
+            text-align: center;
+        }
+        article>h1{
+            text-align: center;
+        }
+        article>h3{
+            text-align: center;
+        }
+        article>p{
+            text-align: center;
+        }
+        section{
+            background-color: rgb(201, 188, 188);
+            margin: auto;
+            height: 300px;
+        }
+        img {
+            position: relative;
+            float: right;
+        }
+        .second-article{
+            position: relative;
+            min-height: auto;
+        }
+        .s-i{
+            position:relative;
+            float:left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="nav-wrapper">
+            <ul>
+                <li id="first-nav">LOGO</li>
+                <li>MENU ITEM 1</li>
+                <li>MENU ITEM 2</li>
+                <li>MENU ITEM 3</li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>SUPER HEADLINE</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </article>
+        </section>
+        <section>
+            <article class="second-article">
+                <h3>Headline</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <img src="https://via.placeholder.com/200">
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>Headline</h3>
+                <ul style="list-style-type: none">
+                    <li>-Lorem Ipsum is simply dummy text of the</li>
+                    <li>-Lorem Ipsum is simply dummy text of the</li>
+                    <li>-Lorem Ipsum is simply dummy text of the</li>
+                    <img class="s-i" src="https://via.placeholder.com/200">
+            </ul>
+            </article>
+        </section>
+
+        <section>
+            <footer>
+                <p>Additional information 1</p>
+                <p>Additional information 2</p>
+                <p>Additional information 3</p>
+                <br>
+                <p>All rights reserved</p>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
