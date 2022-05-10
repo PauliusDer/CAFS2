@@ -7,26 +7,39 @@
     <title>Document</title>
     <style>
         li {
-            color: blue;
-            border: 1px solid blue;
+            border: 1px solid black;
             width: 200px;
             margin: 5px;
             padding: 2px;
+            background-color: black;
+            font-weight: bold;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            color: white;
         }
         li:hover {
-            font-size: 150%;
+            background-color: white;
         }
-        .pointer {cursor: pointer;}
+        a:hover {
+            color: black;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
 
     </style>
 </head>
 <body>
     <main>
         <ul>
-            <li class="pointer">Home</li>
-            <li class="pointer">News</li>
-            <li class="pointer">Contacts</li>
-            <li class="pointer">Online</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Online</a></li>
         </ul>
     </main>
 </body>
